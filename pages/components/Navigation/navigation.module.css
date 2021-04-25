@@ -1,0 +1,23 @@
+.container {
+  margin-right: auto;
+  height: 72px;
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 5%;
+  z-index: 1;
+  /*   position: absolute;
+ */
+  /*   overflow: hidden;
+ */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+  justify-content: space-between;
+  /*   overflow: hidden;
+ */
+}

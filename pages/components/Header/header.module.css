@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.blueElement {
+  position: absolute;
+  width: 720px;
+  height: auto;
+  top: -98px;
+  right: 0;
+  z-index: 0;
+}
+
+.yellowElement {
+  position: absolute;
+  right: 824px;
+  top: 229px;
+  z-index: -2;
+}
+
+.pinkElement {
+  position: absolute;
+  left: 131px;
+  top: 471px;
+
+  z-index: -2;
+}
+
+.headphones {
+  position: absolute;
+  z-index: 0;
+  width: 1066px;
+  height: auto;
+  right: 70px;
+  top: 76px;
+}
+
+.header_container {
+  width: 378px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 15%;
+}
+.text_dot {
+  position: relative;
+  height: 489px;
+}
+
+.header_dot {
+  align-self: flex-end;
+}
+
+.header_dot:after {
+  content: ".";
+  font-size: 96px;
+  color: #2522ba;
+  position: absolute;
+  bottom: 9px;
+  right: 62px;
+}
